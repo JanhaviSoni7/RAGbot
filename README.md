@@ -11,7 +11,6 @@ A fully-local, production-ready Retrieval-Augmented Generation (RAG) chatbot tha
 - [Configuration](#configuration)
 - [API Reference](#api-reference)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -186,8 +185,3 @@ All settings are centralized in `config.py`. Key parameters:
 3. Add tests for new functionality
 4. Ensure all docstrings are updated
 5. Submit a pull request
-
-### Development Setup
-```bash
-pip install -r requirements.txt  
-```
