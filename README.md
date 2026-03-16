@@ -9,8 +9,6 @@ A fully-local, production-ready Retrieval-Augmented Generation (RAG) chatbot tha
 - [Installation](#installation)
 - [Usage](#usage)
 - [Configuration](#configuration)
-- [API Reference](#api-reference)
-- [Contributing](#contributing)
 
 ## Overview
 
@@ -177,11 +175,3 @@ All settings are centralized in `config.py`. Key parameters:
 - `stream_response(context, query, history)`: Streaming generator
 - `assemble_context(ranked_chunks)`: Format context string
 - `ShortTermMemory.add_user(content)`: Update conversation
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Add tests for new functionality
-4. Ensure all docstrings are updated
-5. Submit a pull request
