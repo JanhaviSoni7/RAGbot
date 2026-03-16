@@ -1,0 +1,16 @@
+# DeepCytes RAGBot .gitignore
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.env
+indexes/
+uploads/
+logs/
+data/
+*.pkl
+*.index

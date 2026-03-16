@@ -1,0 +1,41 @@
+# ── Core ML / Embeddings ──────────────────────────────────────────────────────
+sentence-transformers>=2.7.0        # BGE-M3 + cross-encoder reranker
+FlagEmbedding>=1.2.10               # Official FlagAI BGE-M3 (BAAI)
+torch>=2.2.0                        # Backend for transformers
+transformers>=4.40.0
+
+# ── Vector Store ───────────────────────────────────────────────────────────────
+faiss-cpu>=1.8.0                    # FAISS (CPU build)
+
+# ── Sparse / BM25 ────────────────────────────────────────────────────────────
+rank_bm25>=0.2.2
+
+# ── Document Loaders ─────────────────────────────────────────────────────────
+pymupdf>=1.24.0                     # PDF parsing (fitz)
+pymupdf4llm>=0.0.17                 # Markdown-structured PDF extraction
+pytesseract>=0.3.10                 # OCR for image-based pages
+Pillow>=10.3.0                      # Image handling
+python-docx>=0.8.11                 # DOCX files
+openpyxl>=3.1.0                     # XLSX files
+xlrd>=2.0.1                         # XLS files
+python-pptx>=0.6.23                 # PPTX files
+
+# ── Text Processing ──────────────────────────────────────────────────────────
+nltk>=3.8.1
+spacy>=3.7.4
+langdetect>=1.0.9                   # Language detection
+
+# ── LLM / Ollama ─────────────────────────────────────────────────────────────
+ollama>=0.2.1                       # Ollama Python client
+
+# ── UI ────────────────────────────────────────────────────────────────────────
+streamlit>=1.33.0
+streamlit-extras>=0.4.2
+
+# ── Utilities ────────────────────────────────────────────────────────────────
+numpy>=1.26.0
+scipy>=1.13.0
+tqdm>=4.66.0
+python-dotenv>=1.0.0
+pydantic>=2.7.0
+rich>=13.7.0
